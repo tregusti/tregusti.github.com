@@ -1,0 +1,9 @@
+plugins:
+  - cleanupIDs: false
+  - sortAttrs: true
+  - convertPathData:
+      floatPrecision: 1
+  - transformsWithOnePath:
+      width: 500
+      crop: true
+      floatPrecision: 1

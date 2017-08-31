@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 386.4 99.1">
+  <style>
+
+@-webkit-keyframes pop {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  85% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pop {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  85% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+#dots path {
+  -webkit-animation: dots .5s ease;
+          animation: dots .5s ease;
+}
+
+#dots path:nth-child(2) { animation-delay: 0.1s; }
+#dots path:nth-child(3) { animation-delay: 0.2s; }
+
+  </style>
+  <g id="dots">
+    <path fill="#a4bcc2" d="M120 79.7h17.3V97H120V79.8z"/>
+    <path fill="#c4d6a4" d="M120 2h17.3v17.3H120V2z"/>
+    <path fill="#ccaed0" d="M120 40.8h17.3v17.4H120V40.8z"/>
+  </g>
+  <path id="letters" fill="#6e232f" d="M98.2 2h17.4v95H98.2zm-81 14.6H0V2h35.6v95.3h-18V16.5zM43.8 2.2h26c16.6 0 21 15.2 21 35.2 0 8-2.4 25.2-10 29.7L91 97.4H73.5L65.3 71h-4v26.3H43.8V2zm17.4 54.5h3.4c6.5 0 9-9.4 9-19C73.6 24 69.6 16 64 16h-3v40.5zM201.8 2.3H219v73.2c0 4.3 1 8.7 6 8.7s6.6-4 6.6-8.6V2.2h14.7v71.3C246.3 92 238 99 224 99c-13 0-22-7-22-25.6V2zM269.2 70c0 5.3 0 14.6 7.5 14.6 5.7 0 7.7-5.4 7.7-9.3 0-17-31.5-20.8-31.5-49 0-14.3 7.5-26 22.2-26 15.6 0 21.6 12 22 29H282c0-5.3 0-14.2-7-14.2-4.2 0-6.6 3.6-6.6 8.8 0 16 31.5 21.6 31.5 49.3 0 14.6-8.6 26-24 26-18.8 0-22.5-16-22.5-29H269zm37.2-53V2.2H341v14.2h-17.3V97h-17.4V16.6zM347 2h17.4v95.3H347V2zm22 78h17.4v17.3H369V80zM173 56.4V71h6.4c0 5.7-.5 13.2-7 13.2-5.4 0-8.3-3.5-8.3-34v-.8c0-30.8 3.5-34.8 7.7-34.8 5 0 6 7 6.4 13v13.2h15.5V29.5c0-9-1.6-15.3-4.2-20C185 2 177.7 0 170.7 0 157 0 146 13 146 49.4c0 17 1.6 30 6.2 38.3 2 4.3 5 7.2 8.8 9 2.8 1.3 6 2 9.6 2h1.4c5.6 0 10.4-1.2 14-3.8 5.2-4 8-11 8-22V56.6h-21z"/>
+</svg>
